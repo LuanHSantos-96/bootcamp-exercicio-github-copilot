@@ -21,6 +21,42 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    "Soccer Team": {
+        "description": "Join the school soccer team and compete in local leagues",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 22,
+        "participants": ["lucas@mergington.edu", "marco@mergington.edu"]
+    },
+    "Basketball Club": {
+        "description": "Practice basketball skills and play friendly matches",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["ana@mergington.edu", "carla@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Participate in theater productions and acting workshops",
+        "schedule": "Mondays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["felipe@mergington.edu", "lara@mergington.edu"]
+    },
+    "Art Workshop": {
+        "description": "Explore painting, drawing, and other visual arts",
+        "schedule": "Fridays, 2:00 PM - 3:30 PM",
+        "max_participants": 16,
+        "participants": ["giovanna@mergington.edu", "rafael@mergington.edu"]
+    },
+    "Math Olympiad": {
+        "description": "Prepare for math competitions and solve challenging problems",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 10,
+        "participants": ["bruno@mergington.edu", "juliana@mergington.edu"]
+    },
+    "Debate Team": {
+        "description": "Develop argumentation skills and participate in debates",
+        "schedule": "Tuesdays, 4:00 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["camila@mergington.edu", "gustavo@mergington.edu"]
+    },
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
